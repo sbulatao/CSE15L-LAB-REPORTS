@@ -68,3 +68,9 @@
   ![Passphase](https://user-images.githubusercontent.com/114209345/193363661-979ba874-22b6-4488-aecb-fe580721ff49.png)
   
 ## Optimizing Remote Running
+  Now you can write quoated commands at the end of an ssh command and can directly run it on the remote server. Here is an example:
+  
+  ![Other Command](https://user-images.githubusercontent.com/114209345/193364089-d30b0535-8979-405f-8c09-ba79dfa25fc1.png)
+  
+  You can also run multiple commands on the same line in most terminals.
+  Now use what you have learned and explore the possibilities.
