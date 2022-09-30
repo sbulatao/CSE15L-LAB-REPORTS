@@ -30,10 +30,26 @@
   ![Cluster status](https://user-images.githubusercontent.com/114209345/193204679-d01422c8-c47c-4fe1-8f9e-056092f8fc5c.png)
   
 ## Trying Some Commands
+  You can run commands in **your computer** and on the **remote computer**.
+  Commands such as **cd**, **ls**, **pwd**, **mkdir**, and **cp**.
+  
+  For example: I used **cp** and **cat**. Cp compiles the file, and cat prints out the content of the file.
+  ![Command Example](https://user-images.githubusercontent.com/114209345/193355322-9b3f5d6d-d92e-4138-9716-f06f9f67449b.png)
 
-
+  > Note: To log out, you can use:
+  >  - Ctrl_D
+  >  - type: exit
+  
 ## Moving Files with scp
+  To copy files from your comptuer to the remote computer, we use the command scp. The scp is a secure copy command that is used to copy file(s) between servers in a secure way. We created a java program called WhereAmI.java within out computer and put the contents as such:
+  ![WhereAmI.java](https://user-images.githubusercontent.com/114209345/193356372-9f02ba66-4d7d-49a4-865d-d6ca70aa6656.png)
 
+  > Note: 
+  > 1. You should compile your program and run it with using javac and java commands
+  > 2. In the terminal, type in: scp WhereAmI.java cs15lfa22XX@ieng6.ucsd.edu:~/
+  > 3. Place your password in similarly to when you are logging in with you ssh.
+  > 4. Log into the ssh server and type **ls** and you will be able to see the WhereAmI.java
+  > 5. Now use commands javac and java and it will print out different contents to when you where in your personal computer.
 
 ## Setting an SSH Key
 
