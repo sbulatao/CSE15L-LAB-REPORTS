@@ -8,4 +8,4 @@ Hello, meow!!
 
 [Lab Report 0 Week 0](Week0.md)
 
-[Lab Report 1 Week 1](#Lab_1.md)
+[Lab Report 1 Week 1](Lab_1.md)
