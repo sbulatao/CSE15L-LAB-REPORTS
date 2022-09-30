@@ -26,8 +26,8 @@
       > Type **Yes** and press enter
   7. Then typed in the password you have placed for your cs15lfa22XX account\
   8. Once you have seen a cluster status, you are IN
+  9. Then typed in the password you have placed for your cs15lfa22XX account\
   ![Cluster status](https://user-images.githubusercontent.com/114209345/193204679-d01422c8-c47c-4fe1-8f9e-056092f8fc5c.png)
-  7. Then typed in the password you have placed for your cs15lfa22XX account\
   
 ## Trying Some Commands
 
