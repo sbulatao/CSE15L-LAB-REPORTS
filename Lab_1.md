@@ -52,6 +52,8 @@
   > 5. Now use commands javac and java and it will print out different contents to when you where in your personal computer.
 
 ## Setting an SSH Key
-
-
+  Within this section, we will be able creating a way to bypass the password we have placed within the ssh and scp. We will be using the command called **ssh-keygen**. ssh-keygen creates a pair of files called the *public key* and *private key*. It will copy the public key to a particular location to the server, and a private key in your computer. Then the ssh command can use the paired files in place of your password
+  
+  
+  
 ## Optimizing Remote Running
