@@ -5,6 +5,6 @@ Hello, meow!!
 
 ### CSE15L LAB REPORTS
 
-[Lab Report 0 Week 0](https://github.com/sbulatao/CSE15L-LAB-REPORTS/main/Week0.md)
+[Lab Report 0 Week 0](https://github.com/sbulatao/CSE15L-LAB-REPORTS/Week0.md)
 
 [Lab Report 1 Week 1](https://github.com/sbulatao/CSE15L-LAB-REPORTS/Lab_1.md)
