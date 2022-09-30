@@ -52,8 +52,19 @@
   > 5. Now use commands javac and java and it will print out different contents to when you where in your personal computer.
 
 ## Setting an SSH Key
-  Within this section, we will be able creating a way to bypass the password we have placed within the ssh and scp. We will be using the command called **ssh-keygen**. ssh-keygen creates a pair of files called the *public key* and *private key*. It will copy the public key to a particular location to the server, and a private key in your computer. Then the ssh command can use the paired files in place of your password
+  Within this section, we will be able creating a way to bypass the password we have placed within the ssh and scp. We will be using the command called **ssh-keygen**. ssh-keygen creates a pair of files called the *public key* and *private key*. It will copy the public key to a particular location to the server, and a private key in your computer. Then the ssh command can use the paired files in place of your password.
   
+  > Steps for an SSh Key:
+  > 1. Type in **ssh-keygen**
+  > 2. Type in file: **/Users/name/.ssh/id_rsa**
+  > 3. Type in a passphase **Remember the passphase**
+  > 4. Now we copy the public key to the .ssh directory of your user account on the server
+  > 5. On your computer, type: **ssh cs15lfa22XX@ieng6.ucsd.edu**
+  > 6. On the school server, type: **mkdir .ssh** and logout
+  > 7. On your computer, type: **scp /Users/name/.ssh/id_rsa.pub cs15lfa22XX@ieng6.ucsd.edu:~/.ssh/authorized_keys**
+  > 8. Remember that passphase, you should enter the passphase that you have placed example: "go"
+  > 9. Now you should be able to use the **ssh** and **scp** to access the server
   
+  ![Passphase](https://user-images.githubusercontent.com/114209345/193363661-979ba874-22b6-4488-aecb-fe580721ff49.png)
   
 ## Optimizing Remote Running
