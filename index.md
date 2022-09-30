@@ -1,3 +1,5 @@
-Hello meow!!
+Hello, meow!!
 
-![image](https://user-images.githubusercontent.com/114209345/192115851-41d8bf48-de27-41fc-abae-2c423169c8ff.png)
+[Github Repository](https://github.com/sbulatao/CSE15L-LAB-REPORTS.git)
+
+[CSE15L Lab Reports](https://sbulatao.github.io/CSE15L-LAB-REPORTS/)
