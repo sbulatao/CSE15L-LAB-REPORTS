@@ -16,8 +16,18 @@
   To connect within a school computer we will use a program called OpenSSH. This program allows you to connect your computer to other computers.
   1. Remember to install the OpenSSH client and **NOT** the server
   2. Click this this link:[Install OpenSSH](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui)
-
-  
+  3. Once OpenSSH is installed, go to Visual Studio Code
+  4. Connect to the remote computer using VSCode's remote option. Instructions: [Connect to host](https://code.visualstudio.com/docs/remote/ssh#_connect-to-a-remote-host)
+  5. Open the terminal of VSCode and after the $ sign input
+      > ssh cs15lfa22XX@ieng6.ucsd.edu
+      > ieng6 is the Linux servers for school
+  6. There will then be a comment saying:
+      > Are you sure you want to continue connecting
+      > Type **Yes** and press enter
+  7. Then typed in the password you have placed for your cs15lfa22XX account\
+  8. Once you have seen a cluster status, you are IN
+  ![Cluster status](https://user-images.githubusercontent.com/114209345/193204679-d01422c8-c47c-4fe1-8f9e-056092f8fc5c.png)
+  7. Then typed in the password you have placed for your cs15lfa22XX account\
   
 ## Trying Some Commands
 
