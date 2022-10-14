@@ -3,3 +3,6 @@
 
 
 ## Part 2
+### Array Methods
+
+### List Methods
