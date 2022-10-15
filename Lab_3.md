@@ -46,17 +46,22 @@
 ---------
 ## Part 2
 ### Array Methods
+
       Before code is fixed:
+      
 ![not fixed code](https://user-images.githubusercontent.com/114209345/195961789-5f988c70-7f70-4338-9363-da9fe744f22d.png)
 
       First attempt to fix:
+      
 ![first attempt](https://user-images.githubusercontent.com/114209345/195961930-ae3c1f6e-8837-40a4-b785-6ad00823ff49.png)
 ![the output](https://user-images.githubusercontent.com/114209345/195961972-9830f1b0-253d-45ab-9180-44dce1c88e3e.png)
 
       After code is fixed:
+      
 ![final image](https://user-images.githubusercontent.com/114209345/195961565-85921100-f1fd-4f4d-b592-24fb7aef1cc6.png)
 
       The test:
+      
 ![test](https://user-images.githubusercontent.com/114209345/195961875-9b9cb190-14e7-4942-9773-2cde74a355fb.png)
 
 
@@ -73,20 +78,25 @@ The bug of the code for ReverseInPlace is that it needed a integer array to hold
 The connection between the symptom and the bug is that is that we are updating the array arr wrong since we are also decreasing the arr index value to enable a [7, 7, 6, 5, 5, 6, 7, 7] pattern. Once we added another integer array that holds the value of the arr array, and update the arr array with the holder array, we see the expected values [7, 7, 6, 5, 4, 3, 2, 1].
 
 ### List Methods
+
        Before code is fixed:
+       
 ![not fixed code](https://user-images.githubusercontent.com/114209345/195966265-201b9e04-321a-4921-872d-0d14c4c509a4.png)
        
        First attempt to fix:
+       
 ![filter](https://user-images.githubusercontent.com/114209345/195966443-2ad92e78-fed8-4f2a-b0b7-e21bb0e33897.png)
 ![filter test](https://user-images.githubusercontent.com/114209345/195966475-28ee8c1c-1656-4660-8963-29b5dc8ca56a.png)
 ![merge](https://user-images.githubusercontent.com/114209345/195966568-e1e730aa-963d-4db0-96e1-e6c2f07af481.png)
 ![merge test](https://user-images.githubusercontent.com/114209345/195966555-06dab484-67b2-4006-9d4a-32e195e16ca0.png)
    
        After code is somewhat fixed:
+       
 ![final filter](https://user-images.githubusercontent.com/114209345/195966640-9e3abdef-9d3d-4999-a22c-73fa03cd1a13.png)
 ![final merge](https://user-images.githubusercontent.com/114209345/195966647-4cad500c-7d24-4488-8a6c-2f814e45c79f.png)
        
        The test is sadly not finished:
+       
 ![filter tests](https://user-images.githubusercontent.com/114209345/195966348-f7aaf7ee-d304-4f0a-88ea-2efee13da9ac.png)
 ![merge tests](https://user-images.githubusercontent.com/114209345/195966744-2b488860-771b-4434-afe7-6bcc4b6a70c6.png)
        
