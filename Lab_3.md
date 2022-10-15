@@ -46,6 +46,20 @@
 ---------
 ## Part 2
 ### Array Methods
+      Before code is fixed:
+   ![not fixed code](https://user-images.githubusercontent.com/114209345/195961789-5f988c70-7f70-4338-9363-da9fe744f22d.png)
+
+      First attempt to fix:
+   ![first attempt](https://user-images.githubusercontent.com/114209345/195961930-ae3c1f6e-8837-40a4-b785-6ad00823ff49.png)
+   ![the output](https://user-images.githubusercontent.com/114209345/195961972-9830f1b0-253d-45ab-9180-44dce1c88e3e.png)
+
+      After code is fixed:
+   ![final image](https://user-images.githubusercontent.com/114209345/195961565-85921100-f1fd-4f4d-b592-24fb7aef1cc6.png)
+
+      The test:
+   ![test](https://user-images.githubusercontent.com/114209345/195961875-9b9cb190-14e7-4942-9773-2cde74a355fb.png)
+
+
 #### The failure-inducing input (the code of the test)
 
 #### The symptom (the failing test output)
