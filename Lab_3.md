@@ -1,9 +1,9 @@
 # WEEK 3 LAB REPORT
 ## Part 1
-   This picture shows the code for a Simple Search Engine:
+   This picture shows the code for a **Simple Search Engine**:
 ![Search Engine Code](https://user-images.githubusercontent.com/114209345/195958662-2f1a4468-a896-4036-96eb-1794cafc24b1.png)
     
-   Once when you ctrl+click the link we see this image:
+   Once when you ctrl+click the link after it is complied and run we see this image:
    ![local search engine](https://user-images.githubusercontent.com/114209345/195959811-5e813c33-75cd-4a22-a520-3fccd1f2ea0b.png)
 
 ### Add Path
