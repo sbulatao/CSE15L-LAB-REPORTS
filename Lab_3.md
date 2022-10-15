@@ -60,14 +60,17 @@
    ![test](https://user-images.githubusercontent.com/114209345/195961875-9b9cb190-14e7-4942-9773-2cde74a355fb.png)
 
 
-#### The failure-inducing input (the code of the test)
-The code of the test would give me [7, 7, 6, 5, 5, 6, 7, 7] rather than what is expected [7, 7, 6, 5, 4, 3, 2, 1]
-#### The symptom (the failing test output)
+#### The failure-inducing input (the code of the test):
+The code of the test for the testReverseInPlace should test whether an array of numbers have reversed.
 
-#### The bug (the code fix needed)
+#### The symptom (the failing test output):
+The code of the test for testReverseInPlace would give me [7, 7, 6, 5, 5, 6, 7, 7] rather than what is expected [7, 7, 6, 5, 4, 3, 2, 1] before the code is fixed.
+
+#### The bug (the code fix needed):
+The bug of the code for ReverseInPlace is that it needed a integer array to hold the values, and update the interger array arr values.
 
 #### Then, explain the connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?
-
+The connection between the symptom and the bug is that is that we are updating the array arr wrong since we are also decreasing the arr index value to enable a [7, 7, 6, 5, 5, 6, 7, 7] pattern. Once we added another integer array that holds the value of the arr array, and update the arr array with the holder array, we see the expected values [7, 7, 6, 5, 4, 3, 2, 1].
 
 ### List Methods
        Before code is fixed:
@@ -87,10 +90,14 @@ The code of the test would give me [7, 7, 6, 5, 5, 6, 7, 7] rather than what is 
    ![filter tests](https://user-images.githubusercontent.com/114209345/195966348-f7aaf7ee-d304-4f0a-88ea-2efee13da9ac.png)
    ![merge tests](https://user-images.githubusercontent.com/114209345/195966744-2b488860-771b-4434-afe7-6bcc4b6a70c6.png)
        
-#### The failure-inducing input (the code of the test)
+#### The failure-inducing input (the code of the test):
+The code of the test for the testFilter is that it should test the return of all elements that the StringChecker returns true and should be at the same order they appeared in the input list. However, it does not.
 
-#### The symptom (the failing test output)
+#### The symptom (the failing test output):
+The code of the test for the testFilter is that there are errors with the StringChecker and it does not appear within the same order they appeared in the input list.
 
-#### The bug (the code fix needed)
+#### The bug (the code fix needed):
+The bug of the code for filter is that even though we have an interface, the method is not within the class ListExamples. So we needed to add the method within the class to verify whether that string contains specific words like for example: "Banana", "Grapes", or "Lychee" would return true or else other.
 
 #### Then, explain the connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?
+The connection between the symptom and the bug is that, we needed that StringChecker method within the class ListExamles and put specific words that should return true, so that it would print the true values. However, I am stuck with placing the true values in the same order they appeared in the input list. So there is another bug so I might need another List<String> holder to hold the values in order and update the result with the holder.
