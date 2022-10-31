@@ -5,6 +5,7 @@
 ### Example 1: Number Lines
 When we typed in the:
   > **-N** We see this.
+ 
 ![](https://user-images.githubusercontent.com/114209345/199067704-4113dbd7-514c-46c6-9551-af0b24e0a163.png)
 When we want to display numbers within a specific text file, we add the **-N** between less and the file we want to see with number lines. This display of line numbers is usefule for code reviews when needed, or paired programming to locate specific issues easier.
 ![](https://user-images.githubusercontent.com/114209345/199067724-f11c2a68-bcb7-4b75-ad7a-82d7d6ec6701.png)
@@ -16,18 +17,24 @@ To search within text, we only input a back slash "/" and place a specific word 
 ### Exmple 3: Statistics
 When we type in:
   > less -M */biomed/*.txt
+  
 ![](https://user-images.githubusercontent.com/114209345/199068723-f6129b00-6add-437c-8f23-7f090ef3b413.png)
 We see more informtion about the file and its location. We see how many files there are and in which file we are in. We also see the percentage we are currently are throught the readings. This is very useful to have when we are reading a text within the file and how far we need to read to complete one file. We can also go to the next file when we input :n when we are finished with the first file.
 ![](https://user-images.githubusercontent.com/114209345/199068753-800dbc7c-6e7e-44cc-a249-e8a91a9942a1.png)
 
 ## Command: Find
 ### Example 1: Link
+When we want to find a file that has a specific number of links, we add **-links** and a number after the directory.
 ![](https://user-images.githubusercontent.com/114209345/198929644-cadeac75-9b74-4f79-b442-e1565e609ffd.png)
+This is helpful because files have different number of links. It is easy to locate which have a specific number oflinks that we are trying to find.
 
 ### Example 2: Size
+When we typed in **-size** with a specific number after it. We are given files of that specific size. The size does not count indirect blocks; however, it does count blocks in sparse files that are **NOT** actually allocated. This is very helful to see the size byte files of specific files.
 ![](https://user-images.githubusercontent.com/114209345/198929574-d493f973-b490-4c00-a123-6f6756bd5e80.png)
 
+
 ### Example 3: Finding Empty Files
+Here in this example, I added am **MT.txt** file within the main directory and also moved it within the **./technical** directory. When finding a specific file that is empty we need to add **-type** and **f** to indicate we are trying to find a file type. Then add **-empty** to see which file is empty. This is helpful to see which files are empty and can be deleted since we are not using that specific file.
 ![](https://user-images.githubusercontent.com/114209345/198929505-daaba170-187e-4b97-8d91-858747bbc2a1.png)
 
 
