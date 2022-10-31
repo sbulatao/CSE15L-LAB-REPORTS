@@ -1,15 +1,16 @@
 # Researching Commands
 
 ## Command: Less
-### Example 1:
-![]()
+### Example 1: Number Lines
+![](https://user-images.githubusercontent.com/114209345/199067704-4113dbd7-514c-46c6-9551-af0b24e0a163.png)
+![](https://user-images.githubusercontent.com/114209345/199067724-f11c2a68-bcb7-4b75-ad7a-82d7d6ec6701.png)
 
-### Example 2:
-![]()
+### Example 2: Search Within Text
+![](https://user-images.githubusercontent.com/114209345/199068190-5317b8b9-ffe9-49d6-9082-9f3bf4cf235f.png)
 
-### Exmple 3: -M
-![]()
-
+### Exmple 3: Statistics
+![](https://user-images.githubusercontent.com/114209345/199068723-f6129b00-6add-437c-8f23-7f090ef3b413.png)
+![](https://user-images.githubusercontent.com/114209345/199068753-800dbc7c-6e7e-44cc-a249-e8a91a9942a1.png)
 
 ## Command: Find
 ### Example 1: Link
