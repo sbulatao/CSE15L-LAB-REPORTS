@@ -40,12 +40,15 @@ Here in this example, I added am **MT.txt** file within the main directory and a
 
 ## Command: Grep
 ### Example 1: Count Match
+When we place a **-c** after the grep and quoted a string of word or phrase within a specific file. We see the count that matches with the quoted string of word or phrase. Such as the first example, it looks like *trivia* was found only once within the ./techical/911report/chapter-11 and the rest of the files have zero counts indicating that it was not used within the file. This is very helpful to know how many words containing that specific string since it will make things easier with a possible scavenger hunt.
 ![](https://user-images.githubusercontent.com/114209345/198929458-c653512d-2bb4-4b9f-b42b-455881e8fa94.png)
 
 ### Example 2: Match Pattern
+The display of **-o** is very interesting that it displays that specific word that is typed in. They are repeating the strings we have quoted within specific files. This is very helpful to know how many words are repeated within the text and within different files. Makes things easier when doing a match pattern survey.
 ![](https://user-images.githubusercontent.com/114209345/198929373-9fa86473-fcc0-4673-8bc2-fec74f6826b4.png)
 
 ### Example 3: Matching Lines that Starts with String
+When we add **^** within the quoted word. We see the line that starts with that specific word. The ^ expression specifies the start of a line. This is very helpful to know where to start reading when teachers are giving use quotes to read or poems.
 ![](https://user-images.githubusercontent.com/114209345/198929219-18f50e51-5cb1-4c14-8e01-3e30638c7924.png)
 
 
