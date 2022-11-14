@@ -26,7 +26,7 @@ n+e+a+esc to find the start, go to the end of the word, insert and replace it wi
 
 `i` `base` `<Esc>`
 
-> This command `i` inserts the text before the current cursor position. So here we are inserting the word `base` and pressing the `Esc` button to exit out of the inserting mode.
+> This command `i` inserts the text before the current cursor position and we are in insert mode. So here we are inserting the word `base` and pressing the `Esc` button to exit out of the inserting mode.
 
 `n` `dw`
 
@@ -57,7 +57,13 @@ n+e+a+esc to find the start, go to the end of the word, insert and replace it wi
 
 # Part 2
 
+#### How long it took to makee edits in both styles? Any difficulties or details that came up in doing so?
 
+
+#### Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
+
+
+#### What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why?)
 
 
 
