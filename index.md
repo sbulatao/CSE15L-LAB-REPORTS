@@ -13,3 +13,5 @@ Hello, meow!!!
 [Lab Report 2 Week 3](Lab_3.md)
 
 [Lab Report 3 Week 5](Lab_5.md)
+
+[Lab Report 4 Week 7](Lab_7.md)
