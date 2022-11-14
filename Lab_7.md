@@ -15,9 +15,24 @@ n+e+a+esc to find the start, go to the end of the word, insert and replace it wi
 
 ````/start```` ````<Enter>````
 
-````dw```` ````<Enter>```` ````base````
+````dw```` ````<Enter>````
+
+````i```` ````base```` ````<Esc>````
 
 ````n```` ````dw````
+
+````i```` ````base```` ````<Esc>````
+
+````n```` ````dw````
+
+````i```` ````base```` ````<Esc>````
+
+````n```` ````dw````
+
+````i```` ````base```` ````<Esc>````
+
+````:wq```` ````<Enter>````
+
 
 
 
